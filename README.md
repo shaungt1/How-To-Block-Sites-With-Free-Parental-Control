@@ -55,14 +55,14 @@ This is why I decided to make this video. To help struggling parents out, and to
 
 
 **Open comand line or terminal for all devices**:
-- Windows =  Windows key + X, followed by A or search for "Command Prompt." 
-- Mac = Press Cmd Space to open spotlight search, and type terminal and hit return or press Control + Option + Shift + T or Applications -> Utilities
-- Linux  = Ctrl+Alt+T in Ubuntu, or press Alt+F2,`
+- Windows = ```Windows key + X, followed by A or search for "Command Prompt```
+- Mac = ```Press Cmd Space to open spotlight search, and type terminal and hit return or press Control + Option + Shift + T or Applications -> Utilities```
+- Linux  = ```Ctrl+Alt+T in Ubuntu, or press Alt+F2```
 
 **Flush DNS commands**
-- Windows = Type command$ ipconfig /flushdns 
-- Mac = Type command$ sudo killall -HUP mDNSResponder; say dns cleared successfully
-- Linux = Type command$ sudo /etc/init.d/nscd restart
+- Windows = Type command$ ```ipconfig /flushdns``` 
+- Mac = Type command$ ```sudo killall -HUP mDNSResponder; say dns cleared successfully```
+- Linux = Type command$ ```sudo /etc/init.d/nscd restart```
 
 
 **How to clear browser history on anay browser**: 
