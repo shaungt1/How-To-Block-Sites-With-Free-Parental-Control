@@ -49,9 +49,9 @@ This is why I decided to make this video. To help struggling parents out, and to
 > This is a list of commands and task for Windows, Mac, and LInux
 
 **File path to host file for Windows, Mac, & Linux **
-- Windows = C:\Windows\System32\drivers\etc 
-- Mac = /private/etc/hosts
-- LInux = sudo nano /etc/hosts``
+- Windows = ```C:\Windows\System32\drivers\etc``` 
+- Mac = ```/private/etc/```
+- LInux = ```sudo nano /etc/hosts```
 
 
 **Open comand line or terminal for all devices**:
