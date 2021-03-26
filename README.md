@@ -50,25 +50,28 @@ Type command$ sudo /etc/init.d/nscd restart`
 
 <hr/>
 
-## Extra Help:
+## Resources for all devices:
 > This is a list of commands and task for Windows, Mac, and LInux
 
-**Path to host file**
-``Windows = C:\Windows\System32\drivers\etc 
-
-Mac = /private/etc/hosts
-
-LInux = sudo nano /etc/hosts``
+**File path to host file for Windows, Mac, & Linux **
+- Windows = C:\Windows\System32\drivers\etc 
+- Mac = /private/etc/hosts
+- LInux = sudo nano /etc/hosts``
 
 
 **Open comand line or terminal for all devices**:
+- Windows =  Windows key + X, followed by A or search for "Command Prompt." 
+- Mac = Press Cmd Space to open spotlight search, and type terminal and hit return or press Control + Option + Shift + T or Applications -> Utilities
+- Linux  = Ctrl+Alt+T in Ubuntu, or press Alt+F2,`
 
-`Windows =  Windows key + X, followed by A or search for "Command Prompt." 
+**Flush DNS commands**
+- Windows = Type command$ ipconfig /flushdns 
 
-Mac = Press Cmd Space to open spotlight search, and type terminal and hit return or press Control + Option + Shift + T or Applications -> Utilities
+- Mac = Type command$ sudo killall -HUP mDNSResponder; say dns cleared successfully
 
-Linux  = Ctrl+Alt+T in Ubuntu, or press Alt+F2,`
+- Linux = Type command$ sudo /etc/init.d/nscd restart
 
-**Link to instructions below to clear browser history**: 
 
-URL: https://its.uiowa.edu/support/article/719 
+**How to clear browser history on anay browser**: 
+This URL has each step you need for all popular browsers to clear browser cache and history.
+- URL: https://its.uiowa.edu/support/article/719 
