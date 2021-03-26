@@ -28,24 +28,19 @@ This is why I decided to make this video. To help struggling parents out, and to
 - Take the hosts file and drag it to your desktop 
 - Then double-click hosts file open it with text editor
 - Copy the parental_block_list file above by downloading this repo or clicking on the file and coping and paste it to your HOST file
-- Now save the file and be sure to select all files drop option IMPORTANT!!!!
+- *IMPORTANT!!!!* Now save the file and be sure to select ```all files``` in the drop option not ```.txt```
 - Then simply drag it back into your hosts file directory
 
 ### Part 2
-- Now let's go to open up your command prompt or your terminal 
-- to flush the DNS by typing this command `Windows:
-Type command$ ipconfig /flushdns 
-
-Mac
-Type command$ sudo killall -HUP mDNSResponder; say dns cleared successfully
-
-Linux 
-Type command$ sudo /etc/init.d/nscd restart`
+- Now let's go to open up your command prompt or your terminal ```CMD```
+- to flush the DNS by typing this command Windows example = ```ipconfig /flushdns``` 
+- *(More example for Mac and Linux below)*
 
 ### Part 3
-- Make sure you have added all blocked sites to your device `host` file
-- Clear your childs device browser history and cache
-- Go try to open the websites they should be blocked
+- Make sure you have added all blocked sites to your device ```host``` file
+- You may need to check your childs browser history then follow instructions in the video to add them to the blocked list.
+- Clear your childs browser history and cache
+- Go test open the websites that should be blocked
 - Success!!!
 
 <hr/>
@@ -66,9 +61,7 @@ Type command$ sudo /etc/init.d/nscd restart`
 
 **Flush DNS commands**
 - Windows = Type command$ ipconfig /flushdns 
-
 - Mac = Type command$ sudo killall -HUP mDNSResponder; say dns cleared successfully
-
 - Linux = Type command$ sudo /etc/init.d/nscd restart
 
 
