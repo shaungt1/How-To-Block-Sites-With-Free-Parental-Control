@@ -14,7 +14,7 @@ As a parent I know firsthand that given wide open internet access to a kid or a 
 
 This is why I decided to make this video. To help struggling parents out, and to help kids focus with less distractions get through thier school with less as many  distractions as possible. 
 
-### If you are a parent or want to contribute putting blocked sites to this list please submit a pull request or send your block to me (#)![here]
+#### If you are a parent or want to contribute putting blocked sites to this list please submit a pull request or send your block to me (#)[here]
 <hr/>
 
 *Watch Video here*
@@ -24,7 +24,7 @@ This is why I decided to make this video. To help struggling parents out, and to
 # Simple Steps to block Websites on your devices:
 
 ### Part 1
-- The first thing we're going to do is open the windows hosts file 
+- Open the computer hosts file *(See File paths for Windows, Mac, & Linux Below)*
 - Take the hosts file and drag it to your desktop 
 - Then double-click hosts file open it with text editor
 - Copy the parental_block_list file above by downloading this repo or clicking on the file and coping and paste it to your HOST file
@@ -51,8 +51,17 @@ Type command$ sudo /etc/init.d/nscd restart`
 <hr/>
 
 ## Extra Help:
+> This is a list of commands and task for Windows, Mac, and LInux
 
-Open comand line or terminal for all devices:
+**Path to host file**
+``Windows = C:\Windows\System32\drivers\etc 
+
+Mac = /private/etc/hosts
+
+LInux = sudo nano /etc/hosts``
+
+
+**Open comand line or terminal for all devices**:
 
 `Windows =  Windows key + X, followed by A or search for "Command Prompt." 
 
@@ -60,6 +69,6 @@ Mac = Press Cmd Space to open spotlight search, and type terminal and hit return
 
 Linux  = Ctrl+Alt+T in Ubuntu, or press Alt+F2,`
 
-## Link to instructions below to clear browser history: 
+**Link to instructions below to clear browser history**: 
 
 URL: https://its.uiowa.edu/support/article/719 
