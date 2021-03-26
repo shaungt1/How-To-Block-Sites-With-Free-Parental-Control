@@ -19,7 +19,7 @@ This is why I decided to make this video. To help struggling parents out, and to
 
 *Watch Video here*
 
-
+*!!Important This will block all user from visitng the blocked listed websites for the computer being blocked!!*
 
 # Simple Steps to block Websites on your devices:
 
