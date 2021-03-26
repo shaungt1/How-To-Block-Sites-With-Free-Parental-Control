@@ -24,10 +24,10 @@ This is why I decided to make this video. To help struggling parents out, and to
 # Simple Steps to block Websites on your devices:
 
 ### Part 1
-- Open the computer hosts file *(See File paths for Windows, Mac, & Linux Below)*
+- On your childs or teens computer open the computer hosts file *(See File paths for Windows, Mac, & Linux Below)* 
 - Take the hosts file and drag it to your desktop 
 - Then double-click hosts file open it with text editor
-- Copy the parental_block_list file above by downloading this repo or clicking on the file and coping and paste it to your HOST file
+- Copy the ```parental_block_list``` file above by downloading this repo or clicking on the file and coping and paste it to your HOST file
 - *IMPORTANT!!!!* Now save the file and be sure to select ```all files``` in the drop option not ```.txt```
 - Then simply drag it back into your hosts file directory
 
@@ -38,9 +38,12 @@ This is why I decided to make this video. To help struggling parents out, and to
 
 ### Part 3
 - Make sure you have added all blocked sites to your device ```host``` file
-- You may need to check your childs browser history then follow instructions in the video to add them to the blocked list.
-- Clear your childs browser history and cache
-- Go test open the websites that should be blocked
+- You may need to check your childs browser history then follow instructions in the 2nd video the video to add them to the blocked list.
+
+### Part 4
+- Test website is blocked, open ```CMD or Terminal``` type ```ping SITE ADDRESS YOU WANT TO BLOCK HERE``` THEN ```ENTER```
+*you should then see the ip ```127.0.0.1```* (If it is not ```127.0.0.1``` please revist last step...)
+- Go test open the websites in your kids browser it should now be blocked
 - Success!!!
 
 <hr/>
@@ -64,7 +67,13 @@ This is why I decided to make this video. To help struggling parents out, and to
 - Mac = Type command$ ```sudo killall -HUP mDNSResponder; say dns cleared successfully```
 - Linux = Type command$ ```sudo /etc/init.d/nscd restart```
 
-
 **How to clear browser history on anay browser**: 
 This URL has each step you need for all popular browsers to clear browser cache and history.
 - URL: https://its.uiowa.edu/support/article/719 
+
+
+## More security:
+Set you kid up with a basic user account with NO admin privliges so they cannot alter the file. Resources below.
+- Windows = ```https://www.windowscentral.com/how-set-kid-friendly-windows-10-pc-child-account``` 
+- Mac = ```https://www.howtogeek.com/452198/how-to-set-up-a-mac-for-your-kids/```
+- Linux = ```https://www.reallinuxuser.com/how-to-setup-parental-control-in-linux-mint/```
