@@ -5,6 +5,12 @@
 # 127.0.0.1  127.0.0.1(IP)
 # ####
 
+# EA Sports
+127.0.0.1 www.ea.com 
+127.0.0.1 ea.com 
+127.0.0.1 *.ea.com
+127.0.0.1 96.7.183.107 
+
 # Call of duty block
 127.0.0.1 www.callofduty.com 
 127.0.0.1 callofduty.com
