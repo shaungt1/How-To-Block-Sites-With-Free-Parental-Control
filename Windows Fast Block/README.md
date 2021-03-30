@@ -2,6 +2,9 @@
 
 > This is a program I am writting that will let parents click and add all the blocks to the host file at once. I will update the progress of this program. This will let parents aviod having to copy and paste and flush DNS manually. 
 
+!!!Warning ⚠ !! If you have IP web adresses in your hosts file you will need to copy and past them back. These files will be deleted once you click the KidBlocker script below. I recomend checking your file. If you have anything in it move the orginal hosts file to your desktop. Then click the kidblocker script, and then copy the web address and IPs to the new file. Usally there are not entries on the host file but some programs might have posted one there. Follow the instructions [here](https://github.com/shaungt1/How-To-Block-Sites-With-Free-Parental-Control)
+
+
 ## Instructions
 
 - Download both batch files to your windows desktop
