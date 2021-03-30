@@ -73,6 +73,16 @@
 127.0.0.1 *.nintendo.com
 127.0.0.1  104.122.78.131
 
+SnapChat block list
+127.0.0.1   www.snapchat.com/
+127.0.0.1   .snapchat.com/
+127.0.0.1  *.snapchat.com
+127.0.0.1   216.239.34.21
+
+TicTok Block List
+127.0.0.1   www.tiktok.com
+127.0.0.1   tiktok.com
+127.0.0.1   *.tiktok.com
 
 # Instagram block list
 127.0.0.1   facebook.com
